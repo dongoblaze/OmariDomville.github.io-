@@ -1,0 +1,166 @@
+@import url("https://use.fontawesome.com/releases/v5.3.1/css/all.css");
+
+
+
+body {
+
+  margin: 0 auto;
+
+  padding: 0;
+
+  background: green;
+
+  font-size: 12pt;
+
+  }
+
+
+
+  .grid{
+
+  display: grid;
+
+  grid-template-columns: 30% 70%;
+
+}
+
+
+
+
+
+header{
+
+
+    background-color:red;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-content: center;
+
+    padding-top: 2em;
+
+    padding-bottom: 3em;
+
+ 
+}
+
+
+
+header>div {
+
+  border: 1px solid whitesmoke;
+
+  border-radius: 5em;
+
+  min-height: 1vh ;
+
+  height: auto;
+
+  max-height: 3vh;
+
+  padding: 3em;
+
+  text-align: center;
+
+}
+
+header>div>h1 {
+
+  font-size: 14pt;
+
+  margin: 0;
+
+  padding: 0;
+
+}
+
+header>div>p {
+
+  font-size: 12pt;
+
+  margin: 0 0 2em;
+
+  padding: 0 0 2em;
+
+}
+
+
+
+.sideBar{
+
+  background: slategrey;
+
+  color: white;
+
+  justify-content: center;
+
+  padding: 2.5em ;
+
+}
+
+
+
+a.social > img{
+
+  width: 2.5em;
+
+  border-radius: 50%;
+
+  display: inline-block;
+
+}
+
+a.social > img + a.social > img{
+
+  margin-right: 1em;
+
+}
+
+.sideBar img.bob{
+
+  border-radius: 50%;
+
+  width: 60%;
+}
+
+
+
+.main{
+
+  background: transparent;
+
+  margin: 0;
+
+  padding: 5em;
+
+
+}
+
+
+
+
+.workflex{
+
+  float: left;
+
+}
+
+.eduflex{
+
+  float: left;
+
+}
+
+
+
+
+
+.skillsul{
+
+    columns: 2;
+
+    float:left;
+
+}
